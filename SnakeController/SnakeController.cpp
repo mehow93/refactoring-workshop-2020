@@ -23,7 +23,7 @@ Controller::Controller(IPort& p_displayPort, IPort& p_foodPort, IPort& p_scorePo
 {
     std::istringstream istr(p_config);
     char w, f, s, d;
-
+//test comment
     int width, height, length;
     int foodX, foodY;
     istr >> w >> width >> height >> f >> foodX >> foodY >> s;
