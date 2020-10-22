@@ -37,6 +37,8 @@ private:
         int x;
         int y;
         int ttl;
+
+        
     };
 
     IPort& m_displayPort;
