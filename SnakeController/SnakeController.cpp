@@ -213,6 +213,7 @@ Controller::Segment Controller::getNewHead() const
     return newHead;
 }
 //test
+//test2
 void Controller::receive(std::unique_ptr<Event> e)
 {
     try {
